@@ -4,7 +4,7 @@ package fr.miage.toulouse.m2.ams.zenewbank.app.entities.compte;/*
  * and open the template in the editor.
  */
 
-import fr.miage.toulouse.m2.ams.zenewbank.app.entities.client.Client;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -15,7 +15,7 @@ import javax.validation.constraints.NotNull;
  *
  * @author ludoviclajournade
  */
-@Entity
+@Document(collection = "Compte")
 public class Compte {
     
     @Id
@@ -25,7 +25,6 @@ public class Compte {
         return id;
     }
 
-
     @NotNull
     public double solde;
 
@@ -33,7 +32,7 @@ public class Compte {
     public String idclient;
 
     @ManyToOne
-    public Client client;
+    public Long client;
 
     public void setId(long id) {
         this.id = id;
@@ -55,11 +54,11 @@ public class Compte {
         this.idclient = idclient;
     }
 
-    public Client getClient() {
+    public Long getClient() {
         return client;
     }
 
-    public void setClient(Client client) {
+    public void setClient(Long client) {
         this.client = client;
     }
     

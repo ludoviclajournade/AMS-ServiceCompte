@@ -1,19 +1,20 @@
 
 # Reglage serveur
 server:
-  port: 10000
+  port: 10001
 # nom appli
 spring:
   application:
     name: m2-ams-spring-banque
-  # Configuration BD
-  datasource:
-    url: jdbc:mysql://localhost:3306/amsdb # Url Mysql
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  jpa:
-    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-    hibernate:
-      # Ne pas laisser en prod (mettre update au début)
-      ddl-auto: create-drop
+  # Configuration BD 1
+  data:
+    mongodb:
+      authentication-database: admin
+      username: root
+      password: root
+      database: amsdb
+      port: 27017
+      host: localhost
+      uri: mongodb://root:root@localhost:27017/amsdb
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration

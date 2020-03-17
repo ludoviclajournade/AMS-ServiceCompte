@@ -11,9 +11,12 @@ public class MetierCompte {
     @Autowired
     private CompteRepository compteRepository;
 
-    // TODO: ask Claire retrait et depot
-
     public boolean debiter(Compte c, double somme) {
+        c.setSolde(somme-c.getSolde());
+        return true;
+    }
+
+    public boolean crediter(Compte c, double somme) {
         c.setSolde(somme+c.getSolde());
         return true;
     }

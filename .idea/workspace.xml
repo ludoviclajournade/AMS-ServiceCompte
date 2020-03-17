@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d98c1d3-cd73-477e-a45e-d22d3a058bbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/miage/toulouse/m2/ams/zenewbank/app/entities/client/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/miage/toulouse/m2/ams/zenewbank/app/entities/compte/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/miage/toulouse/m2/ams/zenewbank/app/entities/compte/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/miage/toulouse/m2/ams/zenewbank/app/repo/ClientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/miage/toulouse/m2/ams/zenewbank/app/rest/ClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/miage/toulouse/m2/ams/zenewbank/app/services/MetierCompte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/miage/toulouse/m2/ams/zenewbank/app/services/MetierCompte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/miage/toulouse/m2/ams/zenewbank/app/entities/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/miage/toulouse/m2/ams/zenewbank/app/entities/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/miage/toulouse/m2/ams/zenewbank/app/entities/compte/Compte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/miage/toulouse/m2/ams/zenewbank/app/entities/compte/Compte.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +109,9 @@
       <workItem from="1584112640146" duration="210000" />
       <workItem from="1584113739359" duration="2879000" />
       <workItem from="1584432508292" duration="72000" />
+      <workItem from="1584432784099" duration="1072000" />
+      <workItem from="1584433917516" duration="719000" />
+      <workItem from="1584435694091" duration="2210000" />
     </task>
     <task id="LOCAL-00001" summary="Init Pro&#10;ject">
       <created>1583502335500</created>
